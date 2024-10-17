@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+header {
+    width: 100%;
+    height: 1000px;
+}
+
+body {
+    background-color: rgb(170, 213, 255);
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 50px;
+    padding-right: 50px;
+    margin-top: 250px;
+}
+
+.navigator {
+    background-color: rgba(170, 213, 255, 0.719);
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.header_pic {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.header_links_div {
+    float: right;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.header_buttons {
+    margin-top: 5px;
+    display: inline-block;
+    background-color: rgb(0, 209, 17);
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.button_text {
+    color: black;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.intro {
+    margin-top: 20vh;
+}
+
+.intro_image {
+    border-radius: 1%;
+    box-shadow: 2px 2px 8px 1px #888888;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.scroll {
+    margin-top: 10px;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 2px 0px #888888;
+}
+
+#band_section {
+    height: 2600px;
+    width: 100%;
+    background-color: rgb(159, 207, 255);
+}
+
+.band_title_div {
+    padding-top: 220px;
+    margin-left: 32%;
+}
+
+.band_title {
+    font-size: 22px;
+    color: green;
+    font-weight: 800;
+}
+
+.title_description {
+    margin-top: 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 100px
+}
+.title_box {
+    width: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 200px;
+}
+
+.concert {
+    width: 650px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+
+.jazz {
+    width: 650px;
+    margin-left: 50px;
+    border-radius: 4px;
+}
+
+.sunglasses {
+    width: 300px;
+    height: 500px;
+    margin-right: 100px;
+    border-radius: 4px;
+    float: right;
+    object-fit: cover;
+}
+
+.pic_title_right {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.pic_description_right {
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 17px;
+    color: #333333;
+    
+}
+
+.pic_title_left {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: right;
+    position: relative;
+}
+
+
+.pic_description_left {
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 17px;
+    color: #333333;
+    text-align: right;
+}
+.description_box {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.description_box_left {
+    float: right;
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.margin_box {
+    margin-bottom: 100px;
+}
+
+.social_media_link {
+    margin-top: 200px;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 2px 0px #888888;
+}
+
+#band_button :hover {
+    opacity: 80;
+}
+#tech_section {
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(150, 202, 255);
+    padding-bottom: 200px;
+}
+
+.tech_title {
+    color: green;
+    font-size: 22px;
+    text-align: left;
+}
+
+.tech_title_box {
+    padding-top: 200px;
+    margin-left: 33%;
+    width: 500px;
+    text-align: left;
+}
+
+.picture_slides {
+    position: relative;
+    margin-left: 28%;
+    width: 870px;
+    height: 450px;
+}
+
+.slideshow {
+    position: absolute;
+    width: 870px;
+    height: 450px;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#photo_1 {
+    opacity: 100;
+}
+
+#photo_2 {
+    opacity: 0;
+}
+
+#photo_3 {
+    opacity: 0;
+}
+.right_arrow {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    right: -40px;
+    top: 225px;
+    transform: rotate(45deg);
+}
+
+.left_arrow {
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    background-color: #333333;
+    margin-left: 50px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    position: absolute;
+    top: 480px;
+}
+
+#circle_1 {
+    opacity: 100%;
+}
+
+#circle_2 {
+    opacity: 50%;
+    left: 50px;
+}
+
+#circle_3 {
+    opacity: 50%;
+    left: 100px;
+}
+
+footer {
+    background-color: #333333;
+    height: 510px;
+}
+
+.footer_title {
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.socials_title {
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.socials_icons {
+    padding-top: 50px;
+    margin-left: 35%;
+    width: 550px;
+    height: 50px;
+    position: relative;
+}
+
+.fa {
+    position: absolute;
+}
+
+#insta_icon {
+    left: 100px;
+}
+
+#steam_icon {
+    left: 200px;
+}
+
+#soundcloud_icon {
+    left: 300px;
+}
+
+#twitch_icon {
+    left: 400px;
+}
+
+#twitter_icon {
+    left: 500px;
+}
+
+.footer_text {
+    text-align: center;
+    padding-top: 160px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.youtube_videos {
+    margin-top: 200px;
+    margin-left: 28%;
+}
+
+.yt_title {
+    color: green;
+    font-size: 22px;
+    text-align: left;
+}
+
+.top_button {
+    background-color: #00000000;
+    width: 10%;
+    margin-left: 45%;
+    text-align: center;
+    height: 25px;
+    border: solid aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    .band_title_div {
+        margin-left: 19%;
+    }
+
+    .jazz {
+        width: 350px;
+        height: auto;
+    }
+
+    .concert {
+        width: 350px;
+        height: auto;
+    }
+    .description_box {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .band_title_div {
+        margin-left: 10%;
+    }
+    .intro_image {
+        margin-top: 100px;
+        width: 400px;
+        height: 400px;
+    }
+    .description_box {
+        width: 300px;
+    }
+    .description_box_left {
+        width: 300px;
+        height: 600px;
+    }
+    .title_description {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .intro_image {
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .col {
+        width: 100%;
+    }
+    .intro_image {
+        margin-top: 50px;
+        margin-left: 13%;
+    }
+    .scroll {
+        margin-right: 47%;
+    }
+    h2 {
+        margin-top: 75px;
+        text-align: center;
+    }
+    .header_links_div {
+        margin-right: 10px;
+        
+    }
+    .button_text {
+        padding-left: 30.5px;
+        padding-right: 30.5px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .header_buttons {
+        display: block;
+    }
+    .intro_image {
+        width: 200px;
+        height: 200px;
+        margin-left: 15%;
+    }
+    .scroll {
+        margin-right: 40%;
+    }
+}
