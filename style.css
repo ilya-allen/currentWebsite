@@ -334,7 +334,7 @@ footer {
 
 .socials_icons {
     padding-top: 50px;
-    margin-left: 35%;
+    margin-left: 32%;
     width: 550px;
     height: 50px;
     position: relative;
@@ -362,6 +362,10 @@ footer {
 
 #twitter_icon {
     left: 500px;
+}
+
+#github_icon {
+    left: 600px;
 }
 
 .footer_text {
