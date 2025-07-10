@@ -78,6 +78,8 @@ h2 {
 .intro_image {
     border-radius: 1%;
     box-shadow: 2px 2px 8px 1px #888888;
+    height: 500px;
+    width: 500px;
 }
 
 .col {
@@ -224,7 +226,7 @@ a {
     opacity: 80;
 }
 #tech_section {
-    height: 1500px;
+    height: 1100px;
     width: 100%;
     background-color: rgb(150, 202, 255);
     padding-bottom: 200px;
